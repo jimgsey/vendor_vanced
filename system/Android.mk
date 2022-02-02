@@ -3,7 +3,7 @@ LOCAL_PATH := $(call my-dir)
 include $(CLEAR_VARS)
 LOCAL_MODULE := Manager
 LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := Manager/Manager.apk
+LOCAL_SRC_FILES := Manager/manager.apk
 LOCAL_CERTIFICATE := platform
 LOCAL_PRIVILEGED_MODULE := true
 LOCAL_MODULE_CLASS := APPS
