@@ -23,6 +23,28 @@ LOCAL_DEX_PREOPT := false
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := split_config.arm64_v8a
+LOCAL_MODULE_TAGS := optional
+LOCAL_SRC_FILES := YouTubeVanced/split_config.arm64_v8a.apk
+LOCAL_CERTIFICATE := platform
+LOCAL_PRIVILEGED_MODULE := true
+LOCAL_MODULE_CLASS := APPS
+LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
+LOCAL_DEX_PREOPT := false
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := split_config.en
+LOCAL_MODULE_TAGS := optional
+LOCAL_SRC_FILES := YouTubeVanced/split_config.en.apk
+LOCAL_CERTIFICATE := platform
+LOCAL_PRIVILEGED_MODULE := true
+LOCAL_MODULE_CLASS := APPS
+LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
+LOCAL_DEX_PREOPT := false
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := YouTubeVanced
 LOCAL_MODULE_TAGS := optional
 LOCAL_SRC_FILES := YouTubeVanced/YouTubeVanced.apk
